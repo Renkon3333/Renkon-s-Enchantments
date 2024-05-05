@@ -1,0 +1,36 @@
+{
+  "anvil_cost": 2,
+  "description": {
+    "text": "Power of the Crab"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.2,
+          "per_level_above_first": 0.2
+        },
+        "attribute": "minecraft:player.block_interaction_range",
+        "name": "Power of the Crab",
+        "operation": "add_multiplied_base",
+        "uuid": "6235c92c-0259-3796-0ad6-2aefedcfbe3f"
+      }
+    ]
+  },
+  "exclusive_set": "#minecraft:exclusive_set/chest",
+  "max_cost": {
+    "base": 18,
+    "per_level_above_first": 8
+  },
+  "max_level": 5,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 8
+  },
+  "slots": [
+    "chest"
+  ],
+  "supported_items": "#minecraft:enchantable/chest_armor",
+  "weight": 5
+}

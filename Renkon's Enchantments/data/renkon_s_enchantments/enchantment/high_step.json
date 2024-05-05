@@ -1,0 +1,36 @@
+{
+  "anvil_cost": 2,
+  "description": {
+    "text": "High-step"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 1,
+          "per_level_above_first": 1
+        },
+        "attribute": "minecraft:generic.step_height",
+        "name": "High-step",
+        "operation": "add_multiplied_base",
+        "uuid": "9c3a9330-0d11-40ac-1bbb-3bb1cbd7eeaf"
+      }
+    ]
+  },
+  "exclusive_set": "#minecraft:exclusive_set/boots",
+  "max_cost": {
+    "base": 18,
+    "per_level_above_first": 8
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 8
+  },
+  "slots": [
+    "feet"
+  ],
+  "supported_items": "#minecraft:enchantable/foot_armor",
+  "weight": 5
+}

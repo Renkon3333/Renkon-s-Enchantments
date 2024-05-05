@@ -1,0 +1,36 @@
+{
+  "anvil_cost": 2,
+  "description": {
+    "text": "Health Boost"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.2,
+          "per_level_above_first": 0.2
+        },
+        "attribute": "minecraft:generic.max_health",
+        "name": "Health Boost",
+        "operation": "add_multiplied_base",
+        "uuid": "75413c91-3f53-13df-b7cc-2c9707a9a2e7"
+      }
+    ]
+  },
+  "exclusive_set": "#minecraft:exclusive_set/chest",
+  "max_cost": {
+    "base": 18,
+    "per_level_above_first": 8
+  },
+  "max_level": 5,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 8
+  },
+  "slots": [
+    "chest"
+  ],
+  "supported_items": "#minecraft:enchantable/chest_armor",
+  "weight": 5
+}
